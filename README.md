@@ -51,10 +51,18 @@ A delay of 1000 milliseconds is introduced between each state. The loop function
 
 ## 8. Memory Utilization
 
-| Memory Type | Total Capacity | Program Usage |
-|---|---|---|
-| Flash Memory | 32 KB | To be updated after compilation |
-| SRAM (RAM) | 2 KB | To be updated after compilation |
+The Arduino LED blinking program was compiled using Arduino IDE with the Arduino Uno board selected.
+
+| Memory Type | Used Memory | Total Available Memory | Utilization |
+|---|---:|---:|---:|
+| Flash Memory | 924 bytes | 32,256 bytes | 2% |
+| SRAM (RAM) | 9 bytes | 2,048 bytes | 0% (rounded) |
+
+### Analysis
+
+- **Flash Memory:** The compiled program occupies 924 bytes of program storage space.
+- **SRAM:** The program uses 9 bytes of dynamic memory for global variables, leaving 2,039 bytes available for local variables and runtime operations.
+- **Memory Efficiency:** The program requires very little memory, making it suitable for execution on a resource-constrained microcontroller such as the ATmega328P.
 
 ## 9. Simulation
 The project was implemented and tested using Tinkercad Circuits.
