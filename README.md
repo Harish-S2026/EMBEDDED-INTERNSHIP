@@ -67,7 +67,7 @@ The Arduino LED blinking program was compiled using Arduino IDE with the Arduino
 ## 9. Simulation
 The project was implemented and tested using Tinkercad Circuits.
 
-**Simulation Link:** Add your public Tinkercad link here after publication.
+**Simulation Link:** (https://www.tinkercad.com/things/5d5so5hStDV-arduinoledblinking)
 
 ## 10. Expected Outcome
 The LED continuously blinks with an ON duration of one second and an OFF duration of one second.
